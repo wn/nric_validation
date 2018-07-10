@@ -12,7 +12,6 @@ function is_nric_valid(nric) {
   var weights = [2, 7, 6, 5, 4, 3, 2];
   var sum = 0;
 
-  // eslint-disable-next-line no-restricted-globals
   if (isNaN(digits)) {
     return false;
   }
