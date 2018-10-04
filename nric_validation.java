@@ -14,7 +14,7 @@ public class NRIC {
 
         String prefix = String.valueOf(ic.charAt(0));
         String checksum = String.valueOf(ic.charAt(8));
-        String digits = ic.substring(1, 2);
+        String digits = ic.substring(1, 8);
 
         int[] weights = {2, 7, 6, 5, 4, 3, 2};
         int sum = 0;
